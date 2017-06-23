@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="Big5"?>
+<transactions>
+	<transaction date="05/22/2000" id="0122">
+		<from account="100392">1</from>
+		<to account="203921">1</to>
+		<amount currency="USD">15</amount>
+	</transaction>
+	
+
+	<transaction date="06/01/2000" id="0129">
+		<from account="203921">1</from>
+		<to account="877521">1</to>
+		<amount currency="USD">4800</amount>
+	</transaction>
+
+	<transaction date="06/01/2000" id="0130">
+		<from account="100392">1</from>
+		<to account="992031">1</to>
+		<amount currency="YEN">7000</amount>
+	</transaction>
+
+
+	<transaction date="06/10/2000" id="0152">
+		<from account="992031">1</from>
+		<to account="100392">1</to>
+		<amount currency="USD">402.53</amount>
+	</transaction>
+	
+
+	<transaction date="06/22/2000" id="0188">
+		<from account="100392">1</from>
+		<to account="203921">1</to>
+		<amount currency="USD">10000</amount>
+	</transaction>
+
+
+	<transaction date="07/12/2000" id="0200">
+		<from account="100392">1</from>
+		<to account="039211">1</to>
+		<amount currency="NTD">3000</amount>
+	</transaction>
+
+	
+	<transaction date="07/26/2000" id="0211">
+		<from account="203921">1</from>
+		<to account="100392">1</to>
+		<amount currency="USD">400</amount>
+	</transaction>
+
+
+	<transaction date="08/05/2000" id="0225">
+		<from account="039211">1</from>
+		<to account="203921">1</to>
+		<amount currency="USD">150</amount>
+	</transaction>
+
+
+	<transaction date="09/03/2000" id="0293">
+		<from account="100392">1</from>
+		<to account="039211">1</to>
+		<amount currency="NTD">200000</amount>
+	</transaction>
+</transactions>

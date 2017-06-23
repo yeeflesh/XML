@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product unitPrice="100" id="A12">
+		<name>XML parser</name>
+	</product>
+	<product unitPrice="50" id="A14">
+		<name>XML editor</name>
+	</product>
+	<product unitPrice="200" id="A15">
+		<name>XML toolkit</name>
+	</product>
+</products>

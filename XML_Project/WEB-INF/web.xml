@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+  <display-name>My Project Management</display-name>
+  <description>
+    My Project Management
+  </description>
+
+
+  <servlet>
+    <servlet-name>Add</servlet-name>
+    <servlet-class>Add</servlet-class>
+  </servlet>
+
+ <servlet>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>Delete</servlet-class>
+  </servlet>
+
+ <servlet>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>Update</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>Search</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>Display</servlet-name>
+    <servlet-class>Display</servlet-class>
+  </servlet>
+
+  <!-- The mapping for the webdav servlet -->
+
+  <servlet-mapping>
+    <servlet-name>Add</servlet-name>
+    <url-pattern>/service/Add</url-pattern>
+  </servlet-mapping>
+
+ <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/service/Delete</url-pattern>
+  </servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/service/Update</url-pattern>
+  </servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/service/Search</url-pattern>
+  </servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>Display</servlet-name>
+    <url-pattern>/service/Display</url-pattern>
+  </servlet-mapping>
+
+</web-app>

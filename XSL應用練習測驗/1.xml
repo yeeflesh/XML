@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="1.xsl"?>
+ <products>
+   <product>
+      <unitPrice>100</unitPrice> 
+      <id>A12</id> 
+      <name>XML parser</name> 
+ </product>
+  <product>
+     <unitPrice>50</unitPrice> 
+     <id>A14</id> 
+     <name>XML editor</name> 
+ </product>
+   <product>
+      <unitPrice>200</unitPrice> 
+      <id>A15</id> 
+      <name>XML toolkit</name> 
+ </product>
+</products>

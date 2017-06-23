@@ -1,0 +1,16 @@
+1. Tom, Cruth 參與的社團(association)總時數 ?(提示: sum()函式)
+sum(//association[member[.='Tom, Cruth']]/@hours)
+
+2. Jones, Phil 沒有參加的社團個數 ?
+count(//association[not(member[.='Jones, Phil'])])
+
+3. 平均的社團參與時數 ?(提示: avg()函式)
+avg(//association/@hours)
+
+
+4. 編碼以D開頭的社團個數 ?(提示: starts-with()函式) 
+count(//association[starts-with(@code,'D')])
+
+
+5. 檢查是否不存在編碼以T開頭的社團 ?(提示: boolean()函式)
+not(boolean(//association[starts-with(@code,'T')]))

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lala's_data.xsl"?>
+<!DOCTYPE lala:各系啦啦資料 SYSTEM "C:\Users\MingE\Downloads\apache-tomcat-6.0.41\webapps\XML_Project\lala's_data.dtd">
+
+<lala:各系啦啦資料 xmlns:lala="http://lala's_data.com.tw">
+	<lala:科系 系名="守城系">
+		<lala:預算 教練預算="10" 服裝預算="20" 道具預算="30"/>
+		<lala:主題>XXXX</lala:主題>
+		<lala:教練 姓名="王王王" 性別="男" 電話="095422111">
+			<lala:價錢>123</lala:價錢>
+			<lala:車牌>XXXXX</lala:車牌>
+		</lala:教練>
+		<lala:隊員資料>		
+			<lala:隊員 姓名="問問問問問問" 學號="a000" 班級="4問" 電話="09987154">
+				<lala:住宿通勤>住宿</lala:住宿通勤>
+				<lala:運動或其他專長>問</lala:運動或其他專長>
+				<lala:身材 肩長="1" 胸圍="2" 腰圍="3" 腿長="5" 臀圍="4"/>
+				<lala:體育課 節次="67">不要問</lala:體育課>
+			</lala:隊員>
+		</lala:隊員資料>
+	</lala:科系>
+	<lala:科系 系名="建築系">
+		<lala:預算 教練預算="789" 服裝預算="456" 道具預算="0"/>
+		<lala:主題>XXXX</lala:主題>
+		<lala:教練 姓名="林小姐" 性別="女" 電話="03444477">
+			<lala:價錢>123</lala:價錢>
+		</lala:教練>
+		<lala:隊員資料>
+			<lala:隊員 姓名="馬卡茸" 學號="b123478" 班級="XXXX" 電話="0765111">
+				<lala:住宿通勤>住宿</lala:住宿通勤>
+				<lala:運動或其他專長>XX</lala:運動或其他專長>
+				<lala:身材 肩長="55" 胸圍="66" 腰圍="77" 腿長="99" 臀圍="88"/>
+				<lala:體育課 節次="45">XXX老師</lala:體育課>
+			</lala:隊員>			
+		</lala:隊員資料>
+	</lala:科系>
+	<lala:科系 系名="攻城系">
+		<lala:預算 教練預算="789" 服裝預算="4546" 道具預算="123"/>
+		<lala:主題>XXXX</lala:主題>
+		<lala:隊員資料>
+			<lala:隊員 姓名="祭司" 學號="c123462" 班級="XXXX" 電話="0311111">
+				<lala:住宿通勤>住宿</lala:住宿通勤>
+				<lala:運動或其他專長>無</lala:運動或其他專長>
+				<lala:身材 肩長="55" 胸圍="66" 腰圍="77" 腿長="99" 臀圍="88"/>
+				<lala:體育課 節次="45">XXX老師</lala:體育課>
+			</lala:隊員>
+		</lala:隊員資料>
+	</lala:科系>
+</lala:各系啦啦資料>

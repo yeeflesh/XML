@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<university name="MCU"> 
+　<association name="Dancing" code="D" hours="4"> 
+　　<member>Clemens, Patricia</member> 
+　　<member>Tom, Cruth</member> 
+　　<member>Owens, Roger</member> 
+　　<member>Henrry, Ford</member> 
+　</association > 
+　<association name="Chess" code="C" hours="2">
+　　<member>Urdell, Harry</member>
+　　<member>Clemens, Patricia</member>
+　　<member>Parker, John</member>
+　　<member>Tom, Cruth</member>
+　</association> 
+　<association name="Design" code="Dn" hours="3">
+　　<member>Jones, Phil</member> 
+　　<member>Clemens, Patricia</member>
+　　<member>Parker, John</member> 
+　　<member>Howell, Jane</member>
+　</association>
+　<association name="Football" code="F" hours="5"> 
+　　<member>Owens, Roger</member>
+　　<member>Parker, John</member> 
+　　<member>Harry, Potter</member> 
+　</association> 
+　<association name="Band" code="B" hours="3">
+　　<member>Howell, Jane</member> 
+　　<member>Owens, Roger</member> 
+　　<member>Wilson, Ann Marie</member>
+　　<member>Henrry, Ford</member> 
+　</association> 
+</university>

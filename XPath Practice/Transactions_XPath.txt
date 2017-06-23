@@ -1,0 +1,11 @@
+1. 給一客戶編號（customer id）xxxx 查出有哪些人轉帳是轉給他的？
+//to[@account='203921']/preceding-sibling::*/@account
+2.給一客戶編號 xxxx, 查出他01/01/2000到06/30/2000期間有轉帳給誰？
+//transaction[from[@account='203921']][@date[compare(.,'01/01/2000')=1 and compare(.,'06/30/2000')=-1]]/to/@account
+3.計算其轉帳總額。
+//不判斷貨幣
+Case 1:sum(//to[@account='203921']/following-sibling::*)
+Case 2:sum(//transaction[from[@account='203921']][@date[compare(.,'01/01/2000')=1 and compare(.,'06/30/2000')=-1]]/amount)
+//判斷貨幣
+Case 1:sum(//to[@account='203921']/following-sibling::*[@currency[.='NTD']])+sum(//to[@account='203921']/following-sibling::*[@currency[.='USD']])*30.5+sum(//to[@account='203921']/following-sibling::*[@currency[.='YEN']])*0.29817
+Case 2:sum(//transaction[from[@account='203921']][@date[compare(.,'01/01/2000')=1 and compare(.,'06/30/2000')=-1]]/amount[@currency[.='NTD']])+sum(//transaction[from[@account='203921']][@date[compare(.,'01/01/2000')=1 and compare(.,'06/30/2000')=-1]]/amount[@currency[.='USD']])*30.5+sum(//transaction[from[@account='203921']][@date[compare(.,'01/01/2000')=1 and compare(.,'06/30/2000')=-1]]/amount[@currency[.='YEN']])*0.29817

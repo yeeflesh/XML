@@ -1,0 +1,35 @@
+<!ELEMENT lala:各系啦啦資料 (lala:科系)+>
+<!ATTLIST lala:各系啦啦資料 xmlns:lala CDATA #FIXED "http://lala's_data.com.tw">
+<!ELEMENT lala:科系 (lala:預算,lala:主題,lala:教練*,lala:隊員資料)>
+<!ATTLIST lala:科系 系名 CDATA  #REQUIRED>
+<!ELEMENT lala:預算 EMPTY>
+<!ATTLIST lala:預算 
+	道具預算 CDATA #REQUIRED
+	服裝預算 CDATA #REQUIRED
+	教練預算 CDATA #REQUIRED>
+<!ELEMENT lala:主題 (#PCDATA)>
+<!ELEMENT lala:教練 (lala:價錢,lala:車牌?)>
+<!ATTLIST lala:教練 
+	姓名 CDATA #REQUIRED
+	性別 (男|女) "男"
+	電話 CDATA #REQUIRED>
+<!ELEMENT lala:價錢 (#PCDATA)>
+<!ELEMENT lala:車牌 (#PCDATA)>
+<!ELEMENT lala:隊員資料 (lala:隊員+)>
+<!ELEMENT lala:隊員 (lala:住宿通勤,lala:運動或其他專長,lala:身材,lala:體育課)>
+<!ATTLIST lala:隊員 
+	姓名 CDATA #REQUIRED
+	班級 CDATA #REQUIRED
+	學號 ID #REQUIRED
+	電話 CDATA #REQUIRED>
+<!ELEMENT lala:住宿通勤 (#PCDATA)>
+<!ELEMENT lala:運動或其他專長 (#PCDATA)>
+<!ELEMENT lala:身材 EMPTY>
+<!ATTLIST lala:身材 
+	肩長 CDATA #REQUIRED
+ 	胸圍 CDATA #REQUIRED
+	腰圍 CDATA #REQUIRED
+	臀圍 CDATA #REQUIRED
+	腿長 CDATA #REQUIRED>
+<!ELEMENT lala:體育課 (#PCDATA)>
+<!ATTLIST lala:體育課 節次 CDATA #REQUIRED>

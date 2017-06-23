@@ -1,0 +1,46 @@
+﻿<html>
+<head><title>新增資料</title></head>
+<body>
+<h1>隊員新增</h1>
+  <form  action="Add"   method="POST">
+    <p>科系：
+       <select  name="department">
+ 	  <option value="守城系" selected>守城系</option>
+  	  <option value="建築系">建築系</option>
+          <option value="攻城系">攻城系</option>
+       </select>
+    </p>
+    <p>姓名：<input type="textbox"  name="name"></p>
+    <p>班級：<input type="textbox"  name="class"></p>
+    <p>學號(開頭必須為英文)：<input type="textbox"  name="id"></p>
+    <p>電話：<input type="textbox"  name="phone"></p>
+    <p>住宿通勤：
+       <select  name="place">
+ 	  <option value="住宿" selected>住宿</option>
+  	  <option value="通勤">通勤</option>
+       </select>
+    </p>
+    <p>運動或其他專長(可填無)：<input type="textbox"  name="skill"></p>
+    肩長：<input type="textbox"  name="shoulder">
+    胸圍：<input type="textbox"  name="chest">
+    腰圍：<input type="textbox"  name="waist">
+    臀圍：<input type="textbox"  name="hips">
+    腿長：<input type="textbox"  name="legs">
+    <p>體育課：
+       <select  name="pe">
+ 	  <option value="12" selected>12</option>
+  	  <option value="23">23</option>
+  	  <option value="34">34</option>
+  	  <option value="45">45</option>
+  	  <option value="56">56</option>
+  	  <option value="67">67</option>
+  	  <option value="78">78</option>
+  	  <option value="89">89</option>
+       </select>節
+       <input type="textbox"  name="pe_name">老師
+    </p>
+    <p><input type="submit"  value="新增"></p>
+  </form>
+
+</body>
+</html>

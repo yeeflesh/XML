@@ -1,0 +1,5 @@
+﻿<!ELEMENT 文章 (段落*)>
+<!ELEMENT 段落 (#PCDATA | 重點 | 註記)*>
+<!ELEMENT 重點 (#PCDATA | 重點 | 註記)*>
+<!ELEMENT 註記 (#PCDATA)>
+
